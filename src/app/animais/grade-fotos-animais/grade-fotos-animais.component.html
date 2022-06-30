@@ -1,7 +1,7 @@
 <p class="text-center text-muterd" *ngIf="!animais?.length">Descupe não há animais</p>
 
 <div class="row">
-  <div *ngFor="let animal of animais" class="col-4">
+  <div *ngFor="let animal of animais" class="col-12 col-sm-4">
     <a [routerLink]="['/animais', animal.id]"></a>
     <app-cartao>
       <app-animal
