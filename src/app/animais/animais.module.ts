@@ -8,7 +8,11 @@ import { CartaoModule } from './../componentes/cartao/cartao.module';
 import { GradeFotosAnimaisComponent } from './grade-fotos-animais/grade-fotos-animais.component';
 
 @NgModule({
-  declarations: [ListaAnimaisComponent, AnimalComponent, GradeFotosAnimaisComponent],
+  declarations: [
+    ListaAnimaisComponent,
+    AnimalComponent,
+    GradeFotosAnimaisComponent,
+  ],
   imports: [CommonModule, AnimaisRoutingModule, CartaoModule],
 })
 export class AnimaisModule {}
