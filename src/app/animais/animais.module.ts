@@ -6,12 +6,14 @@ import { AnimalComponent } from './animal/animal.component';
 import { AnimaisRoutingModule } from './animais-routing.module';
 import { CartaoModule } from './../componentes/cartao/cartao.module';
 import { GradeFotosAnimaisComponent } from './grade-fotos-animais/grade-fotos-animais.component';
+import { DetalheAnimalComponent } from './detalhe-animal/detalhe-animal.component';
 
 @NgModule({
   declarations: [
     ListaAnimaisComponent,
     AnimalComponent,
     GradeFotosAnimaisComponent,
+    DetalheAnimalComponent,
   ],
   imports: [CommonModule, AnimaisRoutingModule, CartaoModule],
 })
